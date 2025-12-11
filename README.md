@@ -58,3 +58,29 @@ Random Forest	0.9179 ± 0.1084
 AdaBoost	0.9018 ± 0.1431
 
 SVM show the best performance (~96%).
+
+Deep Learning (CNN-Based Classification)
+
+EEG features (energy) were converted to 19-channel topographic 2D maps using:
+Azimuthal projection
+Delaunay interpolation
+Output shape: (72, 200, 200, 5)
+
+Trained two CNN models:
+
+Architecture 1 — ASPP + FPN (from literature)
+Accuracy: 58.39% ± 10.41%
+
+Architecture 2 — Simple CNN
+Accuracy: 80.89% ± 17.53%
+
+The Simple CNN performed better than ASPP-FPN.
+
+To Run the Code:
+Traditional ML-python main.py
+Deep Learning (CNN)-python cnn_models.py
+
+Author
+
+Naja Jebin M
+IISER Thiruvananthapuram
