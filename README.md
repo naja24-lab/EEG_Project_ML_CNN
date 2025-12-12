@@ -69,12 +69,12 @@ Output shape: (72, 200, 200, 5)
 Trained two CNN models:
 
 Architecture 1 — ASPP + FPN (Complex Model)
-Accuracy (Run 1): 58.39% ± 10.41%
+Accuracy (Run 1): 95.00% ± 15.00%(deep_learning.py)
 Accuracy (Run 2): 63.93% ± 15.75%
 Accuracy(Run 3): 97.50% ± 7.50% 
 
 Architecture 2 — Simple CNN
-Accuracy (Run 1): 80.89% ± 17.53%
+Accuracy (Run 1):98.75% ± 3.75% (deep_learning.py)
 Accuracy (Run 2): 79.46% ± 22.72%
 Accuracy(Run 3): 97.50% ± 7.50%  
 
@@ -86,8 +86,8 @@ python main.py
 python main_detailed.py
 
 Deep Learning (CNN)
-python cnn_models.py
 python deep_learning.py
+python cnn_models.py
 
 Author
 
